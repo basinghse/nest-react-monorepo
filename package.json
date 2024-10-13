@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/basinghse/nest-react-monorepo/issues"
   },
-  "homepage": "https://github.com/basinghse/nest-react-monorepo#readme"
+  "homepage": "https://github.com/basinghse/nest-react-monorepo#readme",
+  "devDependencies": {
+    "turbo": "^2.1.3"
+  }
 }
