@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <main>
       <section className="main-container">
-        <h1 className="header-text">React Supabase Auth Template</h1>
+        <h1 className="header-text">Nest React Supabase Template</h1>
         <p>Current User : {session?.user.email || "None"}</p>
         {session ? (
           <button onClick={() => supabase.auth.signOut()}>Sign Out</button>
@@ -17,7 +17,7 @@ const HomePage = () => {
         <Link to="/protected">Protected Page 🛡️</Link>
         <div id="divider"></div>
         <Link
-          to="https://github.com/mmvergara/react-supabase-auth-template"
+          to="https://github.com/basinghse/nest-react-monorepo"
           target="_blank"
           rel="noreferrer noopener"
           id="github-repo-link"

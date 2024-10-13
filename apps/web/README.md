@@ -6,7 +6,7 @@
 <img src="remove_me.png" width="450">
 </p>
 
-[**`🌐 App Demo`**](https://<insert-supabase-project-name>.vercel.app/)
+[**`🌐 App Demo`**](https://nest-react-monorepo.vercel.app/)
 
 ## Features
 
@@ -41,6 +41,10 @@ VITE_SUPABASE_ANON_KEY=
 ```
 
 - Run the app: `npm run dev`
+
+### Deployment
+
+- Create an account and project at 
 
 ## What you need to know
 

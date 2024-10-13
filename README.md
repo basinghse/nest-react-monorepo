@@ -36,3 +36,5 @@ Low level details may be omitted in the steps below. You are encouraged to:
     - `git clone --no-git https://github.com/mmvergara/react-supabase-auth-template web`
     - `rm -rf web/.git`; or navigate and delete via finder/file explorer
 - Setup a Supabase project and connect it with the frontend using the instructions [here](apps/web//README.md#getting-started)
+- In the backend `package.json` - update `start:dev` script to `dev`
+  - This allows both dev scripts to be run together with turbo (`npm run dev`)
