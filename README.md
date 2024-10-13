@@ -2,11 +2,10 @@
 
 ## Architecture
 
-TODO: add links
-- React frontend built with Vite as a Single Page Application (SPA)
-- NestJS backend which serves up the frontend
-- Supabase (free Firebase alternative) for user authentication. It can also provide a database
-- Turborepo for managing the front and backend together
+- [React](https://react.dev/reference/react) frontend built with Vite as a Single Page Application (SPA)
+- [NestJS](https://docs.nestjs.com/first-steps) backend which serves up the frontend
+- [Supabase](https://supabase.com/docs) (free Firebase alternative) for user authentication. It can also provide a database
+- [Turborepo](https://turbo.build/repo/docs) for managing the frontend and backend together
 
 ## Steps
 
