@@ -2,18 +2,22 @@
 
 ## Architecture
 
-- [React](https://react.dev/reference/react) frontend built with Vite as a Single Page Application (SPA)
+- [React](https://react.dev/reference/react) frontend built with [vite](https://vitejs.dev) as a Single Page Application (SPA)
+  - [Frontend](apps/web)
 - [NestJS](https://docs.nestjs.com/first-steps) backend which serves up the frontend
+  - [Backend](apps/api)
 - [Supabase](https://supabase.com/docs) (free Firebase alternative) for user authentication. It can also provide a database
 - [Turborepo](https://turbo.build/repo/docs) for managing the frontend and backend together
 
-## Steps
+## Re-creating this project
 
 Low level details may be omitted in the steps below. You are encouraged to:
 
 1. Look through the final code or the commit history and try to work it out for yourself
 2. Refer to the latest documentation
 3. Create an issue or reach out for help
+
+### Steps
 
 - Initialise project and define package.json
   - `npm init`
