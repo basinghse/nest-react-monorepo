@@ -25,8 +25,13 @@ Low level details may be omitted in the steps below. You are encouraged to:
 - Setup workspaces folder/s in `package.json`
   - Read: what is workspaces?
 - Create the workspace folder in your root directory
-- Create new nest api
+- Create backend
   - Install nest global cli with `npm install -g @nestjs/cli`
   - Navigate to workspace folder
   - Run `nest new api --skip-git`
     - `--skip-git` is important if your project already has git initialised to prevent a nested git repository
+- Create frontend
+  - Navigate to workspace folder if not already there
+  - Clone the following template with your desired folder name and remove the `.git` directory created: <https://github.com/mmvergara/react-supabase-auth-template>
+    - `git clone --no-git https://github.com/mmvergara/react-supabase-auth-template web`
+    - `rm -rf web/.git`; or navigate and delete via finder/file explorer
