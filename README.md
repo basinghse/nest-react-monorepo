@@ -25,3 +25,8 @@ Low level details may be omitted in the steps below. You are encouraged to:
 - Setup workspaces folder/s in `package.json`
   - Read: what is workspaces?
 - Create the workspace folder in your root directory
+- Create new nest api
+  - Install nest global cli with `npm install -g @nestjs/cli`
+  - Navigate to workspace folder
+  - Run `nest new api --skip-git`
+    - `--skip-git` is important if your project already has git initialised to prevent a nested git repository
