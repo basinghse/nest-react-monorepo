@@ -35,3 +35,4 @@ Low level details may be omitted in the steps below. You are encouraged to:
   - Clone the following template with your desired folder name and remove the `.git` directory created: <https://github.com/mmvergara/react-supabase-auth-template>
     - `git clone --no-git https://github.com/mmvergara/react-supabase-auth-template web`
     - `rm -rf web/.git`; or navigate and delete via finder/file explorer
+- Setup a Supabase project and connect it with the frontend using the instructions [here](apps/web//README.md#getting-started)

@@ -1,12 +1,12 @@
 <p align="center">
-<h1 align="center">React Supabase Auth with Protected Routes</h1>
+<h1 align="center">React + TS + Supabase + Vite</h1>
 </p>
 
 <p align="center">
 <img src="remove_me.png" width="450">
 </p>
 
-[**`🌐 App Demo`**](https://react-supabase-auth-template.vercel.app/)
+[**`🌐 App Demo`**](https://<insert-supabase-project-name>.vercel.app/)
 
 ## Features
 
@@ -17,17 +17,30 @@
 
 It's also blazingly fast 🔥 No really, [try it out for yourself.](https://react-supabase-auth-template.vercel.app/)
 
-[We also have a similar template for FIREBASE 🔥](https://github.com/mmvergara/react-firebase-auth-template)
 ## Getting Started
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Create `.env` using the `.env.example` as a template
-```
+### Setting up Supabase
+
+- Create a new Supabase project [here](https://supabase.com/dashboard/new)
+  - Create a new account and organisation if required
+  - Select the appropriate region
+  - Note the project URL and anon key in `Project settings > API`
+
+### Setting up the web app
+
+- Clone the repository
+- Install dependencies: `npm install`
+  - This can be run from the root directory as part of the workspaces setup
+- Create `.env` using the `.env.example` as a template
+
+```bash
+# Replace with your Supabase project URL
 VITE_SUPABASE_URL=
+# Replace with your Supabase anon key
 VITE_SUPABASE_ANON_KEY=
 ```
-4. Run the app: `npm run dev`
+
+- Run the app: `npm run dev`
 
 ## What you need to know
 
