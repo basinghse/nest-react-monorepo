@@ -1,5 +1,7 @@
 # nest-react-monorepo
 
+A full stack appliation with user authentication and lightning fast build times.
+
 ## Architecture
 
 - [React](https://react.dev/reference/react) frontend built with [vite](https://vitejs.dev) as a Single Page Application (SPA)
